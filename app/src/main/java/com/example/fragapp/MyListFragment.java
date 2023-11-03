@@ -24,7 +24,7 @@ import java.util.List;
 public class MyListFragment extends Fragment implements View.OnClickListener {
 
     private LinearLayout list;
-    private static List<TextView> tv = new ArrayList<>();
+    private List<TextView> tv = new ArrayList<>();
     private List<CheckBox> cb = new ArrayList<>();
     int index = 0;
 
